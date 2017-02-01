@@ -3,7 +3,7 @@ length(data$Gender[data$Gender=="M"])
 summary(data$Gender) #57096
 
 #3
-dim(subset(data,data$Gender=="F"& data$any_aid=="TRUE")) #367
+dim(subset(data,data$Gender=="F"& data$any_aid=="TRUE")) #367 $eeee
 
 #4
 class <- data$WealthRanking
