@@ -9,6 +9,8 @@ dim(subset(data,data$Gender=="F"& data$any_aid=="TRUE")) #367 $eeee
 class <- data$WealthRanking
 sapply(data, class)
 mean(data, )
+#here
+hehehe
 
 tapply(data$ActualWeight,data$Age,quantile)
 
